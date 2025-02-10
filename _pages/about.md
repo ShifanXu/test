@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Shifan Xu is an Applied Physics Ph.D. student at the Yale Quantum System Lab. His research interests are in the Quantum Computer architectures and Quantum algorithms, especially NISQ quantum computer architectures to enable quantum accelration over classical algorithms.
+Shifan Xu is a forth-year Applied Physics Ph.D. student at the Yale Quantum System Lab. His research interests are in the Quantum Computer architectures and Quantum algorithms, especially NISQ quantum computer architectures to enable quantum accelration over classical algorithms.
 
 
