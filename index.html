@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shifan Xu | Academic Homepage</title>
+  <meta
+    name="description"
+    content="Academic homepage of Shifan Xu, featuring research directions, selected publications, and recent updates."
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-shell site-nav">
+      <a class="brand" href="index.html" aria-label="Shifan Xu homepage">
+        <span class="brand-name">Shifan Xu</span>
+        <span class="brand-role">PhD Candidate in Quantum Architecture</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="site-shell hero-grid">
+        <aside class="profile-panel">
+          <div class="profile-frame">
+            <img src="images/profile.JPG" alt="Portrait of Shifan Xu" />
+          </div>
+          <div class="profile-details">
+            <p class="profile-label">Yale University</p>
+            <h1>Shifan Xu</h1>
+            <p class="profile-role">PhD Candidate working on scalable quantum computer architecture.</p>
+          </div>
+          <p class="profile-email">
+            Email: <a href="mailto:shifan.xu@yale.edu">shifan.xu@yale.edu</a>
+          </p>
+          <div class="profile-links">
+            <a class="icon-link" href="https://scholar.google.com/citations?user=kkj2m90AAAAJ&hl=en">
+              <span class="icon-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M12 3 2 8l10 5 8-4v6h2V8L12 3Zm-6 8.8V15c0 2.4 3.1 4 6 4s6-1.6 6-4v-3.2l-6 3-6-3Z"></path>
+                </svg>
+              </span>
+              <span>Scholar</span>
+            </a>
+            <a class="icon-link" href="https://www.linkedin.com/in/shifan-xu-92817721b/">
+              <span class="icon-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M6.5 8.5A1.5 1.5 0 1 0 6.5 5a1.5 1.5 0 0 0 0 3.5ZM5 10h3v9H5v-9Zm5 0h2.9v1.3h.1c.4-.8 1.4-1.6 3-1.6 3.2 0 3.8 2.1 3.8 4.8V19h-3v-4c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V19h-3v-9Z"></path>
+                </svg>
+              </span>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </aside>
+
+        <section class="hero-copy">
+          <p class="eyebrow">Quantum architecture, fault tolerance, and quantum memory systems</p>
+          <h2>Architectures for large-scale, fault-tolerant quantum computation.</h2>
+          <p class="hero-intro">
+            I am a fifth-year Ph.D. student in Applied Physics at Yale University, where I am very fortunate to be
+            advised by Professor Yongshan Ding and Professor Steven M. Girvin. Prior to Yale, I received my
+            Bachelor's degree from Nanjing University.
+          </p>
+          <p class="hero-summary">
+            My research focuses on quantum computer architecture, especially quantum memory systems,
+            fault-tolerant data access, and magic-state preparation. I study how
+            architectural choices, error correction code structure, and quantum subsystem design affect the practicality of large-scale quantum computing.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="Shifan_Xu_CV.pdf">CV</a>
+            <a class="button" href="publications.html">Publications</a>
+            <a class="button" href="contact.html">Contact</a>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="site-shell home-layout">
+        <section class="surface section-card home-research">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Overview</p>
+              <h3>Research Summary</h3>
+            </div>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h4>Quantum Random Access Memory Architecture</h4>
+              <p>Architectures for quantum random access memory, from system-level QRAM design to high-bandwidth shared-memory organizations.</p>
+            </article>
+            <article class="feature-card">
+              <h4>Fault-Tolerant Magic-State Preparation</h4>
+              <p>Magic-state injection and distillation under realistic fault-tolerant architectural constraints.</p>
+            </article>
+            <article class="feature-card">
+              <h4>Error-Correction-Aware Architecture</h4>
+              <p>How code choices, routing, and architecture interact in deployable fault-tolerant systems.</p>
+            </article>
+            <article class="feature-card">
+              <h4>Algorithm-Architecture Co-Design</h4>
+              <p>Co-design of quantum algorithms and architectures under fault-tolerant implementation constraints.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="surface section-card home-news">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Updates</p>
+              <h3>News</h3>
+            </div>
+          </div>
+          <div id="selected-news" class="news-list" aria-live="polite"></div>
+        </section>
+
+        <section class="surface section-card home-publications">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Publications</p>
+              <h3>Selected Publications</h3>
+            </div>
+            <a class="text-link" href="publications.html">View full list</a>
+          </div>
+          <div id="selected-publications" class="publication-list" aria-live="polite"></div>
+        </section>
+
+        <section class="surface section-card home-teaching">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Teaching</p>
+              <h3>Teaching</h3>
+            </div>
+            <a class="text-link" href="teaching.html">Full teaching page</a>
+          </div>
+          <div class="teaching-list">
+            <article class="teaching-item">
+              <h4>Teaching Assistantship</h4>
+              <p class="item-meta">Ongoing</p>
+              <p>Supported instruction, discussion, and technical guidance in advanced computing and physics courses.</p>
+            </article>
+            <article class="teaching-item">
+              <h4>Research Mentoring</h4>
+              <p class="item-meta">Ongoing</p>
+              <p>Mentor junior students on quantum computing research.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-shell footer-inner">
+      <p class="footer-note">© 2026 Shifan Xu</p>
+      <div class="footer-spacer" aria-hidden="true"></div>
+    </div>
+  </footer>
+
+  <script src="js/publications.js"></script>
+  <script src="js/news.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

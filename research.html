@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Shifan Xu</title>
+  <meta name="description" content="Research areas and current directions for Shifan Xu." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-shell site-nav">
+      <a class="brand" href="index.html" aria-label="Shifan Xu homepage">
+        <span class="brand-name">Shifan Xu</span>
+        <span class="brand-role">PhD Candidate in Quantum Architecture</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="site-shell narrow-shell">
+        <p class="eyebrow">Research</p>
+        <h1 class="page-title">Architectures, memory systems, and fault tolerance for quantum computing.</h1>
+      </div>
+    </section>
+
+    <section class="section-block section-block-tight">
+      <div class="site-shell narrow-shell stack-column">
+        <section class="surface section-card prose-card">
+          <h2>Research Areas</h2>
+          <div class="topic-stack">
+            <article class="topic-item">
+              <h3>Quantum Random Access Memory Architecture</h3>
+              <p>
+                I study how quantum random access memory should be designed as a practical subsystem inside a
+                larger fault-tolerant machine. This includes questions of bandwidth, sharing, routing,
+                organization, defect tolerance, and structured data access. More broadly, I am interested in
+                when quantum memory architectures are actually useful at system scale, and what architectural
+                assumptions make them practical.
+              </p>
+            </article>
+            <article class="topic-item">
+              <h3>Fault-Tolerant Magic-State Preparation</h3>
+              <p>
+                I work on how non-Clifford resources should be prepared under realistic fault-tolerant
+                architectural constraints. This includes magic-state injection, distillation, scheduling, and
+                subsystem integration, especially in settings where code structure and connectivity strongly
+                affect cost. A recurring theme is that magic-state preparation should be viewed as an
+                architectural problem rather than only a protocol-design problem.
+              </p>
+            </article>
+            <article class="topic-item">
+              <h3>Error-Correction-Aware Architecture</h3>
+              <p>
+                A broader theme in my work is that error correction cannot be treated as a black box beneath the
+                architecture. Different codes expose different constraints on layout, routing, movement, and
+                resource sharing, and those differences should shape architectural decisions from the start. I am
+                interested in how code choices and system organization can be coordinated so that fault tolerance
+                becomes a design principle rather than a downstream constraint.
+              </p>
+            </article>
+            <article class="topic-item">
+              <h3>Algorithm-Architecture Co-Design</h3>
+              <p>
+                I am also interested in settings where quantum algorithms and architectures should be optimized
+                together. This includes problems where data access structure, fault-tolerant resource costs, and
+                workload organization all influence what architecture is appropriate. The goal is to move beyond a
+                clean separation between software and hardware layers, and instead study quantum systems through
+                the interaction between algorithms, subsystems, and implementation constraints.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="surface section-card prose-card">
+          <h2>Research Perspective</h2>
+          <p>
+            Across these projects, I am interested in the systems bottlenecks that separate abstract quantum
+            algorithms from deployable large-scale machines. My work tries to connect architectural abstractions
+            with realistic error-corrected implementations and quantitative resource tradeoffs.
+          </p>
+          <p>
+            The common theme is that scalable quantum computing will depend not only on better codes or better
+            devices, but also on better subsystem interfaces, memory organizations, and full-stack evaluation
+            methodologies. I am especially interested in questions where architectural structure changes what is
+            realistically implementable.
+          </p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-shell footer-inner">
+      <p class="footer-note">© 2026 Shifan Xu</p>
+      <div class="footer-spacer" aria-hidden="true"></div>
+    </div>
+  </footer>
+</body>
+</html>
