@@ -15,7 +15,7 @@
     "Tomas Jochym-O'Connor": "https://tomasjoc.com/",
     "D. K. Weiss": "https://dkweiss.net/",
     "Alvin Lu": "https://www.linkedin.com/in/alvin-lu-7934b72b5/",
-    "Kun Liu": "https://www.linkedin.com/in/kun-liu-0276141a4/",
+    "Kun Liu": "https://kunliu7.github.io/",
     "Zhiyang He": "https://sunnyzhiyanghe.github.io/",
     "Zeyuan Zhou": "https://www.linkedin.com/in/victorzzhou/",
     "Chenxu Liu": "https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=11658",
