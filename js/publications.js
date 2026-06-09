@@ -30,7 +30,12 @@
     "Luis F. Zuluaga": "https://engineering.lehigh.edu/faculty/luis-f-zuluaga",
     "Tamás Terlaky": "https://engineering.lehigh.edu/faculty/tamas-terlaky",
     "Adrian Harkness": "https://www.linkedin.com/in/adrian-harkness/",
-    "Shraddha Singh": "https://www.linkedin.com/in/shraddha-singh-161566176/"
+    "Shraddha Singh": "https://www.linkedin.com/in/shraddha-singh-161566176/",
+    "Dantong Li": "https://www.dantongli.com/",
+    "Takahiro Tsunoda": "https://scholar.google.com/citations?user=Q9OX9dkAAAAJ&hl=en",
+    "Sophia H. Xue": "https://scholar.google.com/citations?user=VieYnRQAAAAJ&hl=en",
+    "Evan McKinney": "https://evm9.dev/",
+    "Robert J. Schoelkopf": "https://physics.yale.edu/people/robert-schoelkopf"
   };
 
   const authorAliases = {
@@ -54,7 +59,14 @@
     "Charlie Guinn": "Charles Guinn",
     "Ying MAO": "Ying Mao",
     "Diana C. Chamaki": "Diana Chamaki",
-    "Tamas Terlaky": "Tamás Terlaky"
+    "Tamas Terlaky": "Tamás Terlaky",
+    "Robert Schoelkopf": "Robert J. Schoelkopf",
+    "R. J. Schoelkopf": "Robert J. Schoelkopf",
+    "RJ Schoelkopf": "Robert J. Schoelkopf",
+    "Dantong LI": "Dantong Li",
+    "Sophia H Xue": "Sophia H. Xue",
+    "Sophia Xue": "Sophia H. Xue",
+    "Evan Mckinney": "Evan McKinney"
   };
 
   const publications = [
