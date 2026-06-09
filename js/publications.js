@@ -59,6 +59,30 @@
 
   const publications = [
     {
+      title: "Asymptotically Optimal Depth Fermionic Permutation on 2D Grid Quantum Architecture without Ancillas",
+      authors: ["Dantong Li", "Shifan Xu", "Yongshan Ding"],
+      venue: "arXiv preprint",
+      venueFull: "arXiv preprint",
+      year: 2026,
+      sortDate: "2026-05-25",
+      selected: false,
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2605.26041" }
+      ]
+    },
+    {
+      title: "Efficient Routing of Quantum LDPC Codes on Programmable 2D Toric Architectures",
+      authors: ["Kun Liu", "Takahiro Tsunoda", "Sophia H. Xue", "Evan McKinney", "Zeyuan Zhou", "Shifan Xu", "Robert J. Schoelkopf", "Yongshan Ding"],
+      venue: "arXiv preprint",
+      venueFull: "arXiv preprint",
+      year: 2026,
+      sortDate: "2026-04-20",
+      selected: false,
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2604.18714" }
+      ]
+    },
+    {
       title: "In-Situ Simultaneous Magic State Injection on Arbitrary CSS qLDPC Codes",
       authors: ["Kun Liu", "Shifan Xu", "Tomas Jochym-O'Connor", "Zhiyang He", "Shraddha Singh", "Yongshan Ding"],
       venue: "arXiv preprint",

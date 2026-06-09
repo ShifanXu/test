@@ -58,9 +58,6 @@
 \defaultfontfeatures{Ligatures=TeX}
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
-% Needed to use icons from font-awesome
-% (https://github.com/posquit0/latex-fontawesome)
-\RequirePackage{fontawesome}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
@@ -138,8 +135,19 @@
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-% Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+% Use the bundled FontAwesome font instead of relying on a system installation.
+\newfontfamily\FA[Path=\@fontdir,Extension=.ttf]{FontAwesome}
+\newcommand*{\faMobile}{{\FA\symbol{"F10B}}}
+\newcommand*{\faEnvelope}{{\FA\symbol{"F0E0}}}
+\newcommand*{\faHome}{{\FA\symbol{"F015}}}
+\newcommand*{\faGithubSquare}{{\FA\symbol{"F092}}}
+\newcommand*{\faGitlab}{{\FA\symbol{"F296}}}
+\newcommand*{\faStackOverflow}{{\FA\symbol{"F16C}}}
+\newcommand*{\faLinkedinSquare}{{\FA\symbol{"F08C}}}
+\newcommand*{\faTwitter}{{\FA\symbol{"F099}}}
+\newcommand*{\faSkype}{{\FA\symbol{"F17E}}}
+\newcommand*{\faReddit}{{\FA\symbol{"F1A1}}}
+\newcommand*{\faXingSquare}{{\FA\symbol{"F169}}}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
@@ -502,7 +510,7 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
-  \vspace{-2.0mm}
+  \vspace{0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -597,7 +605,7 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  \vspace{-4.0mm}
+  \vspace{-2.5mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
@@ -605,5 +613,5 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
+  \vspace{-1.0mm}
 }
