@@ -730,8 +730,12 @@ ul {
   line-height: 1;
 }
 
-.footer-spacer {
-  min-width: 1px;
+.footer-updated {
+  min-width: 0;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-align: right;
 }
 
 @media (max-width: 960px) {
