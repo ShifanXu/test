@@ -81,6 +81,8 @@
       year: 2026,
       sortDate: "2026-07-29",
       selected: false,
+      equalContributors: ["Shifan Xu", "Yizhuo Tan"],
+      contributionNote: "* Co-first authors.",
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2607.27171" }
       ]

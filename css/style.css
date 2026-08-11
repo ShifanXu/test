@@ -647,9 +647,23 @@ ul {
   text-decoration-color: currentColor;
 }
 
+.author-note-marker {
+  font-size: 0.72em;
+  line-height: 0;
+  margin-left: 0.08em;
+  vertical-align: super;
+}
+
 .author-self {
   color: #47627b;
   font-weight: 600;
+}
+
+.publication-note {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.25;
+  margin-top: -0.18rem;
 }
 
 .publication-links {

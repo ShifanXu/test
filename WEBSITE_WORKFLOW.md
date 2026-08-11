@@ -63,6 +63,8 @@ Typical fields:
   year: 2025,
   sortDate: "2025-02",
   selected: true,
+  equalContributors: ["Author A", "Author B"],
+  contributionNote: "* Co-first authors.",
   links: [
     { label: "DOI", url: "..." },
     { label: "arXiv", url: "..." }
@@ -77,6 +79,8 @@ Rules:
 - `sortDate` is used for ordering. More recent dates sort first.
 - `venue` is the short venue used on the homepage.
 - `venueFull` is used on `publications.html`.
+- `equalContributors` is optional and marks listed authors with a superscript `*`.
+- `contributionNote` is optional display text for the contribution marker.
 
 ### Author Links
 

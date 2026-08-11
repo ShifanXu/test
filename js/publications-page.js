@@ -55,29 +55,36 @@ function renderPublicationItem(publication) {
         })
         .join("")
     : "";
-  const authors = renderAuthors(publication.authors);
+  const authors = renderAuthors(publication.authors, publication);
+  const note = renderPublicationNote(publication);
 
   return [
     '<article class="publication-item">',
     '<h3 class="publication-title">' + publication.title + "</h3>",
     '<p class="publication-authors">' + authors + "</p>",
+    note,
     '<p class="publication-venue">' + (publication.venueFull || publication.venue) + " · " + publication.year + "</p>",
     links ? '<div class="publication-links">' + links + "</div>" : "",
     "</article>"
   ].join("");
 }
 
-function renderAuthors(authors) {
+function renderAuthors(authors, publication) {
   if (!Array.isArray(authors)) {
     return authors || "";
   }
 
+  const equalContributors = getEqualContributors(publication);
+
   return authors
     .map(function (author) {
       const normalizedAuthor = normalizeAuthor(author);
+      const marker = equalContributors.indexOf(normalizedAuthor.name) !== -1
+        ? '<sup class="author-note-marker">*</sup>'
+        : "";
       const content = normalizedAuthor.isSelf
-        ? '<span class="author-self">' + normalizedAuthor.name + "</span>"
-        : normalizedAuthor.name;
+        ? '<span class="author-self">' + normalizedAuthor.name + "</span>" + marker
+        : normalizedAuthor.name + marker;
 
       if (normalizedAuthor.url) {
         return '<a href="' + normalizedAuthor.url + '">' + content + "</a>";
@@ -86,6 +93,22 @@ function renderAuthors(authors) {
       return content;
     })
     .join(", ");
+}
+
+function getEqualContributors(publication) {
+  if (!publication || !Array.isArray(publication.equalContributors)) {
+    return [];
+  }
+
+  return publication.equalContributors.map(getCanonicalAuthorName);
+}
+
+function renderPublicationNote(publication) {
+  if (!publication || !Array.isArray(publication.equalContributors) || publication.equalContributors.length === 0) {
+    return "";
+  }
+
+  return '<p class="publication-note">' + (publication.contributionNote || "* Equal contribution.") + "</p>";
 }
 
 function normalizeAuthor(author) {
