@@ -100,11 +100,11 @@
     {
       title: "Efficient Routing of Quantum LDPC Codes on Programmable 2D Toric Architectures",
       authors: ["Kun Liu", "Takahiro Tsunoda", "Sophia H. Xue", "Evan McKinney", "Zeyuan Zhou", "Shifan Xu", "Robert J. Schoelkopf", "Yongshan Ding"],
-      venue: "arXiv preprint",
-      venueFull: "arXiv preprint",
+      venue: "QCE",
+      venueFull: "IEEE International Conference on Quantum Computing and Engineering (QCE)",
       year: 2026,
-      sortDate: "2026-04-20",
-      selected: false,
+      sortDate: "2026-09",
+      selected: true,
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2604.18714" }
       ]
