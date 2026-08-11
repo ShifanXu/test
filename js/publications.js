@@ -35,7 +35,9 @@
     "Takahiro Tsunoda": "https://scholar.google.com/citations?user=Q9OX9dkAAAAJ&hl=en",
     "Sophia H. Xue": "https://scholar.google.com/citations?user=VieYnRQAAAAJ&hl=en",
     "Evan McKinney": "https://evm9.dev/",
-    "Robert J. Schoelkopf": "https://physics.yale.edu/people/robert-schoelkopf"
+    "Robert J. Schoelkopf": "https://physics.yale.edu/people/robert-schoelkopf",
+    "Yizhuo Tan": "https://yizhuotan.com/",
+    "Jakub Szefer": "https://caslab.io/jakub/"
   };
 
   const authorAliases = {
@@ -66,10 +68,23 @@
     "Dantong LI": "Dantong Li",
     "Sophia H Xue": "Sophia H. Xue",
     "Sophia Xue": "Sophia H. Xue",
-    "Evan Mckinney": "Evan McKinney"
+    "Evan Mckinney": "Evan McKinney",
+    "Yizhuo TAN": "Yizhuo Tan"
   };
 
   const publications = [
+    {
+      title: "OQRAM: Oblivious Quantum Random Access Memory for Securing Delegated Quantum Queries",
+      authors: ["Shifan Xu", "Yizhuo Tan", "Yongshan Ding", "Jakub Szefer"],
+      venue: "arXiv preprint",
+      venueFull: "arXiv preprint",
+      year: 2026,
+      sortDate: "2026-07-29",
+      selected: false,
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2607.27171" }
+      ]
+    },
     {
       title: "Asymptotically Optimal Depth Fermionic Permutation on 2D Grid Quantum Architecture without Ancillas",
       authors: ["Dantong Li", "Shifan Xu", "Yongshan Ding"],
@@ -115,6 +130,7 @@
       sortDate: "2026-02",
       selected: true,
       links: [
+        { label: "DOI", url: "https://doi.org/10.1109/ISCA66397.2026.00148" },
         { label: "arXiv", url: "https://arxiv.org/abs/2602.20546" }
       ]
     },
