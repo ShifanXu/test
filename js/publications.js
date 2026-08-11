@@ -104,7 +104,7 @@
       venueFull: "IEEE International Conference on Quantum Computing and Engineering (QCE)",
       year: 2026,
       sortDate: "2026-09",
-      selected: true,
+      selected: false,
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2604.18714" }
       ]
