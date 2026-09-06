@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Research | Shifan Xu</title>
   <meta name="description" content="Research areas and current directions for Shifan Xu." />
+  <meta name="robots" content="noindex, nofollow" />
   <link rel="stylesheet" href="css/style.css?v=20260811" />
 </head>
 <body>
@@ -36,6 +37,7 @@
       <div class="site-shell narrow-shell stack-column">
         <section class="surface section-card prose-card">
           <h2>Research Areas</h2>
+          <p class="item-meta">Doctoral research at Yale University, 2021–Present · Graduate Research Assistant, 2023–Present</p>
           <div class="topic-stack">
             <article class="topic-item">
               <h3>Quantum Random Access Memory Architecture</h3>
@@ -45,6 +47,11 @@
                 organization, defect tolerance, and structured data access. More broadly, I am interested in
                 when quantum memory architectures are actually useful at system scale, and what architectural
                 assumptions make them practical.
+              </p>
+              <p>
+                During my 2025 research internship at Pacific Northwest National Laboratory with Ang Li,
+                I worked on oblivious quantum queries, resulting in
+                <a href="https://arxiv.org/abs/2607.27171">OQRAM: Oblivious Quantum Random Access Memory for Securing Delegated Quantum Queries</a>.
               </p>
             </article>
             <article class="topic-item">
@@ -68,14 +75,42 @@
               </p>
             </article>
             <article class="topic-item">
-              <h3>Algorithm-Architecture Co-Design</h3>
+              <h3>Full-Stack qLDPC Resource Estimation</h3>
               <p>
-                I am also interested in settings where quantum algorithms and architectures should be optimized
-                together. This includes problems where data access structure, fault-tolerant resource costs, and
-                workload organization all influence what architecture is appropriate. The goal is to move beyond a
-                clean separation between software and hardware layers, and instead study quantum systems through
-                the interaction between algorithms, subsystems, and implementation constraints.
+                My ongoing work connects quantum algorithms to their implementation costs on qLDPC architectures.
+                A current focus is DF-THC Hamiltonian simulation on neutral-atom systems, including logical-qubit
+                mapping and magic-state delivery. We have preliminary resource estimates for FeMoco simulation
+                and are developing the broader algorithm-to-architecture analysis.
               </p>
+            </article>
+            <article class="topic-item">
+              <h3>AI for Quantum Architecture</h3>
+              <p>
+                I am exploring AI-assisted architecture design and fault-tolerant circuit optimization,
+                including automated syndrome-extraction design. This is an emerging direction within my
+                broader work on quantum computer architecture.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="surface section-card prose-card" id="software">
+          <h2>Research Software and Tutorials</h2>
+          <div class="topic-stack">
+            <article class="topic-item">
+              <h3>QRAM in PennyLane</h3>
+              <p>
+                I collaborated with Xanadu on QRAM implementations in PennyLane and coauthored
+                <a href="https://pennylane.ai/demos/tutorial_qram">Intro to quantum random access memory (QRAM)</a>
+                with David Ren, Marcus Edwards, and Yongshan Ding (August 2026).
+                The tutorial uses executable examples to compare select-only, bucket-brigade, and hybrid QRAM
+                constructions and their qubit-count and circuit-depth tradeoffs.
+              </p>
+              <p><a href="https://pennylane.ai/blog/2026/01/pennylane-release-0.44">PennyLane release announcement</a></p>
+            </article>
+            <article class="topic-item">
+              <h3>Simulation and Programming</h3>
+              <p>Python and C; QRAM simulator development, quantum circuit simulation, and resource estimation with PennyLane.</p>
             </article>
           </div>
         </section>
@@ -91,7 +126,7 @@
             The common theme is that scalable quantum computing will depend not only on better codes or better
             devices, but also on better subsystem interfaces, memory organizations, and full-stack evaluation
             methodologies. I am especially interested in questions where architectural structure changes what is
-            realistically implementable.
+            realistically implementable, and in how AI-assisted exploration can support this design process.
           </p>
         </section>
       </div>
@@ -101,7 +136,7 @@
   <footer class="site-footer">
     <div class="site-shell footer-inner">
       <p class="footer-note">Copyright <span class="footer-icon" aria-hidden="true">©</span> 2026 Shifan Xu</p>
-      <p class="footer-updated">Last updated August 2026</p>
+      <p class="footer-updated">Last updated September 2026</p>
     </div>
   </footer>
 

@@ -1,10 +1,18 @@
 (function () {
   const teachingItems = [
     {
-      title: "Graduate Teaching Assistant",
-      role: "Department of Applied Physics and Department of Computer Science, Yale University",
-      term: "2022-2023",
-      description: "Served as a graduate teaching assistant during the first two years of my Ph.D., supporting course instruction and student learning in Yale's Applied Physics and Computer Science programs.",
+      title: "Teaching Assistant: Computer Music: Algorithmic and Heuristic Composition",
+      role: "CPSC 4310/5310, Yale University · instructor: Scott Petersen",
+      term: "Fall 2026",
+      description: "Graduate teaching assistant for the undergraduate and graduate course in algorithmic computer music.",
+      selected: true,
+      links: []
+    },
+    {
+      title: "Teaching Assistant: Introduction to Quantum Computing",
+      role: "CPSC 4470/5470, Yale University · instructor: Prof. Yongshan Ding",
+      term: "2022–2023",
+      description: "Served as a graduate teaching assistant for Introduction to Quantum Computing.",
       selected: true,
       links: []
     },

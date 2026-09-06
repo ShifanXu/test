@@ -13,7 +13,7 @@ This repository is a pure static academic website. There is no build system, no 
 - `index.html`
   Homepage. Contains the hero, research summary, selected publications, news, and a lightweight teaching summary.
 - `research.html`
-  Research subpage.
+  Research subpage. Retained in the repository but currently hidden from site navigation and homepage links.
 - `publications.html`
   Full publication list page.
 - `teaching.html`
@@ -150,6 +150,8 @@ When updating teaching:
 ## Hidden/Secondary Pages
 
 - `news.html` exists but is hidden from primary navigation
+- `research.html` exists but is hidden from primary navigation and homepage links; keep its
+  `noindex, nofollow` robots directive while the page is hidden
 - `service.html` is visible in navigation
 
 Hidden means:
@@ -157,6 +159,7 @@ Hidden means:
 - The file is still present
 - Direct access still works
 - It is simply not exposed from the main navigation or homepage links
+- For `research.html`, search engines are also asked not to index or follow the page
 
 ## Styling Workflow
 
@@ -190,6 +193,47 @@ Relevant CV sections:
 - `Shifan_Xu_CV/cv/mentoring.tex`
 - `Shifan_Xu_CV/cv/extracurricular.tex`
 - `Shifan_Xu_CV/cv/teaching.tex`
+- `Shifan_Xu_CV/cv/research.tex`
+- `Shifan_Xu_CV/cv/software.tex`
+
+The CV is a single research CV for quantum computing faculty and industry research roles.
+Do not impose a three-page limit or add a long opening profile paragraph. Preserve the
+traditional academic CV format: separate education/visiting appointments, expanded conference
+and proceedings names, individually dated awards, and clearly separated service entries.
+Let the content determine the page count; keep headings with their following entries.
+Retain the confirmed research, software, teaching, and mentoring updates when changing layout. `professional.tex` is maintained as an optional appointments
+record but is not included, to avoid repeating research and teaching roles.
+
+### Publication and contribution status
+
+- Keep manuscripts in preparation distinct from public preprints and accepted/published papers.
+- The QRAM error-correction manuscript has no arXiv link yet. Its website record uses
+  `status: "in-preparation"`, `venue: "Manuscript in preparation"`, and an empty `links` array.
+  Update the status, venue, and links in both the website and CV after public release.
+- QCE 2026 is listed as accepted pending a verified proceedings reference.
+- Full-stack qLDPC resource estimation and AI for quantum architecture are ongoing directions;
+  do not turn preliminary estimates or exploratory plans into completed-result claims.
+- The PennyLane QRAM tutorial (August 30, 2026) is a coauthored tutorial, not a peer-reviewed paper.
+  Its visible website entry lives in `service.html`, the CV entry lives in `cv/software.tex`, and its launch is in `js/news.js`.
+  `research.html#software` retains a longer description while that page is hidden.
+- The 2026 TA assignment is CPSC 4310/5310, Computer Music: Algorithmic and Heuristic Composition;
+  the earlier 2022–2023 assignment is CPSC 4470/5470, Introduction to Quantum Computing.
+
+### Compile and publish the CV file
+
+Use XeLaTeX with the included fonts. From `Shifan_Xu_CV/`:
+
+```bash
+mkdir -p /tmp/shifan-cv-build
+xelatex -interaction=nonstopmode -halt-on-error -output-directory=/tmp/shifan-cv-build cv.tex
+xelatex -interaction=nonstopmode -halt-on-error -output-directory=/tmp/shifan-cv-build cv.tex
+```
+
+Render `/tmp/shifan-cv-build/cv.pdf` and inspect all pages, then copy the verified PDF to
+`Shifan_Xu_CV.pdf` in the repository root. That is the file linked by the website.
+Keep the `final` document option, clickable links, and PDF title/author metadata enabled.
+Do not commit temporary LaTeX or preview files. After content updates, refresh the relevant
+script query versions in HTML and update the visible month in page/CV footers.
 
 Current pattern:
 

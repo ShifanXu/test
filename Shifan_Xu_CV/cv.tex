@@ -1,87 +1,60 @@
 %!TEX encoding = UTF-8 Unicode
-% LaTeX Template for CV/Resume
-%
-% This template has been downloaded and modified from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Original Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Modified (March 2019) by:
-% Jessica A. Rick <jrick@uwyo.edu>
-% http://www.jessicarick.com
-% 
-%
-
-
-%-------------------------------------------------------------------------------
-% CONFIGURATIONS
-%-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, letterpaper, draft]{academic-cv}
-
-% Configure page margins with geometry
-\geometry{left=0.75in, top=0.75in, right=0.75in, bottom=0.75in, footskip=.5cm}
-
-% Specify the location of the included fonts
+% Compile with XeLaTeX from this directory. See ../WEBSITE_WORKFLOW.md.
+\documentclass[11pt, letterpaper, final]{academic-cv}
+\geometry{left=0.75in, top=0.75in, right=0.75in, bottom=0.75in, footskip=0.3in}
 \fontdir[fonts/]
-
-% If you would like to change the social information separator from a pipe (|) to something else
+\urlstyle{same}
+\usepackage{needspace}
+\hypersetup{
+  draft=false,
+  pdftitle={Shifan Xu - Curriculum Vitae},
+  pdfauthor={Shifan Xu},
+  pdfsubject={Quantum computer architecture and fault-tolerant quantum computing}
+}
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\renewcommand{\paragraphstyle}{\fontsize{10.5pt}{13pt}\bodyfont\color{text}}
+\renewcommand{\descriptionstyle}[1]{{\fontsize{10.5pt}{13pt}\bodyfont\upshape\color{text} #1}}
+\renewcommand{\pubstyle}[1]{{\fontsize{10.5pt}{13pt}\bodyfont\color{text} #1}}
+\renewcommand{\acvHeaderAfterSocialSkip}{6mm}
+\renewcommand{\cvsection}[1]{%
+  \par\Needspace{8\baselineskip}\addvspace{3mm}%
+  \noindent\sectionstyle{#1}\quad\phantomsection\color{gray}\vhrulefill{0.9pt}\par\nobreak
+}
+\renewcommand{\cvsubsection}[1]{%
+  \par\Needspace{6\baselineskip}\addvspace{2mm}%
+  \noindent\subsectionstyle{#1}\phantomsection\par\nobreak
+}
+\renewenvironment{cvpubs}{\par\paragraphstyle}{\par}
+\renewcommand{\cvpub}[1]{%
+  \par\begingroup\emergencystretch=3em\hangindent=0.7cm\hangafter=1\noindent\pubstyle{#1}\par\endgroup
+}
+\apptocmd{\cventry}{\par\vspace{2mm}}{}{}
 
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
 \name{Shifan Xu}{}
 \position{Ph.D. Candidate in Applied Physics}
-\address{Yale University, CT, USA, 06511}
-
+\address{Yale University, New Haven, CT}
 \mobile{+1 475-280-8083}
 \email{shifan.xu@yale.edu}
 \homepage{www.shifanxu.com}
-%\github{mygithub}
-\linkedin{www.linkedin.com/in/shifan-xu-92817721b/}
-% \gitlab{my-gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-%\twitter{@twitterhandle}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \extrainfo{extra informations}
+\linkedin{shifan-xu-92817721b/}
+\extrainfo{\href{https://scholar.google.com/citations?user=kkj2m90AAAAJ}{Google Scholar}}
 
-
-%-------------------------------------------------------------------------------
 \begin{document}
-
-% Print the header with above personal information
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
+\makecvfooter{September 2026}{Shifan Xu \quad\textbar\quad Curriculum Vitae}{\thepage}
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
-\makecvfooter
-  {August 2026}
-  {Shifan Xu ~~~·~~~ Curriculum Vitae}
-  {\thepage}
-
-
-%-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
-%   Comment out any sections that are not appropriate for your CV
-%-------------------------------------------------------------------------------
+% Section breaks keep related material together; there is no page-count target.
 \input{cv/education.tex}
-\input{cv/professional.tex}
 \input{cv/research.tex}
+\clearpage
 \input{cv/publications.tex}
+\clearpage
+\input{cv/software.tex}
 \input{cv/honors.tex}
-\input{cv/presentation.tex}
-%\input{cv/teaching.tex}
+\input{cv/teaching.tex}
 \input{cv/mentoring.tex}
-
+\clearpage
+\input{cv/presentation.tex}
 \input{cv/extracurricular.tex}
-
-%-------------------------------------------------------------------------------
+\input{cv/earlier_research.tex}
 \end{document}

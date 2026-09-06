@@ -74,6 +74,17 @@
 
   const publications = [
     {
+      title: "Error Corrected QRAM Queries with One-Fault-Tolerant CSWAP Gates",
+      authors: ["Shifan Xu", "Connor T. Hann", "Nathan Wiebe", "Steven M. Girvin", "Yongshan Ding"],
+      venue: "Manuscript in preparation",
+      venueFull: "Manuscript in preparation",
+      year: 2026,
+      sortDate: "2026-09-06",
+      selected: false,
+      status: "in-preparation",
+      links: []
+    },
+    {
       title: "OQRAM: Oblivious Quantum Random Access Memory for Securing Delegated Quantum Queries",
       authors: ["Shifan Xu", "Yizhuo Tan", "Yongshan Ding", "Jakub Szefer"],
       venue: "arXiv preprint",
@@ -103,7 +114,7 @@
       title: "Efficient Routing of Quantum LDPC Codes on Programmable 2D Toric Architectures",
       authors: ["Kun Liu", "Takahiro Tsunoda", "Sophia H. Xue", "Evan McKinney", "Zeyuan Zhou", "Shifan Xu", "Robert J. Schoelkopf", "Yongshan Ding"],
       venue: "QCE",
-      venueFull: "IEEE International Conference on Quantum Computing and Engineering (QCE)",
+      venueFull: "IEEE International Conference on Quantum Computing and Engineering (QCE), accepted",
       year: 2026,
       sortDate: "2026-09",
       selected: false,
