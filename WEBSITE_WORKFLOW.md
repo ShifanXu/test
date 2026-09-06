@@ -165,6 +165,10 @@ Hidden means:
 
 All shared style changes should go through `css/style.css`.
 
+The mobile header collapse point must remain below the full expanded header height. Keep a
+wide hysteresis gap between collapse and expand thresholds so changing the sticky header height
+cannot make the two states trigger each other while the user is stationary.
+
 Important areas:
 
 - Hero layout and spacing
@@ -232,6 +236,7 @@ xelatex -interaction=nonstopmode -halt-on-error -output-directory=/tmp/shifan-cv
 Render `/tmp/shifan-cv-build/cv.pdf` and inspect all pages, then copy the verified PDF to
 `Shifan_Xu_CV.pdf` in the repository root. That is the file linked by the website.
 Keep the `final` document option, clickable links, and PDF title/author metadata enabled.
+Keep external PDF links visibly underlined so they remain identifiable without relying on color.
 Do not commit temporary LaTeX or preview files. After content updates, refresh the relevant
 script query versions in HTML and update the visible month in page/CV footers.
 
