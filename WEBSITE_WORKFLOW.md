@@ -215,6 +215,13 @@ record but is not included, to avoid repeating research and teaching roles.
   `status: "in-preparation"`, `venue: "Manuscript in preparation"`, and an empty `links` array.
   Update the status, venue, and links in both the website and CV after public release.
 - QCE 2026 is listed as accepted pending a verified proceedings reference.
+- FTCircuitBench was accepted by ACM Transactions on Quantum Computing (TQC)
+  on September 24, 2026, confirmed by the journal decision email. List it among
+  accepted papers in both CVs, retain arXiv:2601.03185, and keep `selected: false`
+  on the website. Do not add a journal DOI, volume, or pages until verified.
+- Nathan Wiebe's author-directory link is his official University of Toronto
+  profile: `https://www.physics.utoronto.ca/members/wiebe-nathan/` (verified
+  September 25, 2026 through the department's faculty directory).
 - Full-stack qLDPC resource estimation and AI for quantum architecture are ongoing directions;
   do not turn preliminary estimates or exploratory plans into completed-result claims.
 - The PennyLane QRAM tutorial (August 30, 2026) is a coauthored tutorial, not a peer-reviewed paper.

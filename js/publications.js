@@ -10,6 +10,7 @@
     "Ali Javadi-Abhari": "https://scholar.google.com/citations?user=-I6kav0AAAAJ&hl=en",
     "Yufei Ding": "https://sites.google.com/ucsd.edu/yufeiding",
     "Connor T. Hann": "https://www.linkedin.com/in/connor-hann-b1a40132b/",
+    "Nathan Wiebe": "https://www.physics.utoronto.ca/members/wiebe-nathan/",
     "Ben Foxman": "https://www.linkedin.com/in/benfoxman1/",
     "Patrick Rall": "https://patrickrall.com/",
     "Tomas Jochym-O'Connor": "https://tomasjoc.com/",
@@ -164,11 +165,12 @@
         "Ang Li",
         "Samuel Stein"
       ],
-      venue: "arXiv preprint",
-      venueFull: "arXiv preprint",
+      venue: "TQC",
+      venueFull: "ACM Transactions on Quantum Computing (TQC), accepted",
       year: 2026,
-      sortDate: "2026-01",
+      sortDate: "2026-09-24",
       selected: false,
+      status: "accepted",
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2601.03185" }
       ]
