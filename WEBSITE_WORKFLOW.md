@@ -218,7 +218,10 @@ record but is not included, to avoid repeating research and teaching roles.
 - FTCircuitBench was accepted by ACM Transactions on Quantum Computing (TQC)
   on September 24, 2026, confirmed by the journal decision email. List it among
   accepted papers in both CVs, retain arXiv:2601.03185, and keep `selected: false`
-  on the website. Do not add a journal DOI, volume, or pages until verified.
+  on the website. Display only the journal name and year for this entry in the
+  website and both CVs: do not append "accepted" or prepend "Accepted for
+  publication in". Acceptance may remain internal status metadata. Do not add
+  a journal DOI, volume, or pages until verified.
 - Nathan Wiebe's author-directory link is his official University of Toronto
   profile: `https://www.physics.utoronto.ca/members/wiebe-nathan/` (verified
   September 25, 2026 through the department's faculty directory).

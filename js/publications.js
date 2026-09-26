@@ -166,7 +166,7 @@
         "Samuel Stein"
       ],
       venue: "TQC",
-      venueFull: "ACM Transactions on Quantum Computing (TQC), accepted",
+      venueFull: "ACM Transactions on Quantum Computing (TQC)",
       year: 2026,
       sortDate: "2026-09-24",
       selected: false,
