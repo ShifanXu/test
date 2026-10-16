@@ -127,6 +127,8 @@ Behavior:
 - Homepage teaching block is static in `index.html`.
 - Homepage news comes from `js/news.js`.
 - Homepage selected publications come from `js/publications.js`.
+- Keep the existing homepage introduction and headline unless the user explicitly
+  requests a rewrite; strengthening CV research descriptions does not imply a bio rewrite.
 
 If you want homepage and subpage content to stay tightly synced, update both places when needed.
 
@@ -235,6 +237,12 @@ record but is not included, to avoid repeating research and teaching roles.
   fault-tolerant quantum computing. Use the candidate's current job-market
   statements as evidence, not older source-audit snapshots. Do not copy or
   publish those private statements, application notes, or email bodies.
+- Keep research-experience descriptions direct and concise. The PNNL entry says
+  "Worked on the OQRAM project"; retain co-first-author credit in the publication
+  entry rather than repeating authorship and preprint status in research experience.
+- The candidate confirmed working on Fat-Tree QRAM and initiating subsequent
+  qLDPC projects during the January-May 2024 University of Chicago visit, hosted
+  by Prof. Liang Jiang. Include this work under Research Experience.
 - The PennyLane QRAM tutorial (August 30, 2026) is a coauthored tutorial, not a peer-reviewed paper.
   Its visible website entry lives in `service.html`, the CV entry lives in `cv/software.tex`, and its launch is in `js/news.js`.
   `research.html#software` retains a longer description while that page is hidden.
@@ -245,17 +253,23 @@ record but is not included, to avoid repeating research and teaching roles.
 - The candidate confirmed on October 16 that the 2022–2023 TA record covers
   two offerings of the same quantum computing course, not two distinct courses.
   The RPI guest lecture was for CSCI 4965/6965, Quantum Computer System.
+- Keep the Fall 2026 CV teaching entry to the course and instructor; omit the
+  programming-project guidance and grading description.
 - Yale's Certificate of College Teaching Preparation is in progress, expected
   December 2026; workshops and learning communities are complete. Do not list
   the certificate as awarded until completion is confirmed.
 - The Italy mentoring entry is informal bachelor's-thesis guidance, not a
   faculty appointment or formal thesis-supervisor role. The verified review
   covered circuit logic, not the student's full noise/error analysis.
+  Use the concise visible description "Helped with Qiskit implementation."
 - Conference talks, invited talks, and guest lectures are separate categories.
   The July 2026 ISCA presentation is a conference talk; the May 2026 AFOSR QRAM
   MURI closeout presentation is an invited project-review talk, not a grant award.
+  The candidate also gave the Systems Architecture for Quantum Random Access
+  Memory conference talk at MICRO 2023 in Toronto, Canada.
 - Conference reviewing is verified for QIP 2026. Publish only venue and role,
   never the reviewed manuscript, reviewer report, or confidential correspondence.
+  Under Conference Reviewing, list the venue without an "External reviewer" prefix.
 
 ### Compile and publish the CV file
 
