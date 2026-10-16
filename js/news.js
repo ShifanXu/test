@@ -1,6 +1,18 @@
 (function () {
   const newsItems = [
     {
+      date: "2026-10-14",
+      label: "Oct 2026",
+      summary: "Our preprint, <a href=\"https://arxiv.org/abs/2610.17185\">Error-Corrected QRAM Queries with One-Fault-Tolerant CSWAP Gates</a>, is now available on arXiv.",
+      selected: true
+    },
+    {
+      date: "2026-09-24",
+      label: "Sep 2026",
+      summary: "Our work <a href=\"https://arxiv.org/abs/2601.03185\">FTCircuitBench</a> will appear in ACM Transactions on Quantum Computing (TQC).",
+      selected: true
+    },
+    {
       date: "2026-08-30",
       label: "Aug 2026",
       summary: "Our PennyLane tutorial, <a href=\"https://pennylane.ai/demos/tutorial_qram\">Intro to quantum random access memory (QRAM)</a>, is now available, with executable examples comparing three QRAM architectures.",

@@ -211,10 +211,14 @@ record but is not included, to avoid repeating research and teaching roles.
 ### Publication and contribution status
 
 - Keep manuscripts in preparation distinct from public preprints and accepted/published papers.
-- The QRAM error-correction manuscript has no arXiv link yet. Its website record uses
-  `status: "in-preparation"`, `venue: "Manuscript in preparation"`, and an empty `links` array.
-  Update the status, venue, and links in both the website and CV after public release.
-- QCE 2026 is listed as accepted pending a verified proceedings reference.
+- The QRAM error-correction paper is public as arXiv:2610.17185 (submitted
+  October 12, 2026; announcement October 14). Use the public title
+  "Error-Corrected QRAM Queries with One-Fault-Tolerant CSWAP Gates",
+  `status: "preprint"`, and its arXiv link. List it under preprints in both CVs,
+  not manuscripts in preparation; keep `selected: false`.
+- QCE 2026 acceptance is verified, but a proceedings DOI has not been verified
+  as of October 16, 2026. Display the conference name and year without an
+  "accepted" suffix; retain the arXiv link and internal acceptance status.
 - FTCircuitBench was accepted by ACM Transactions on Quantum Computing (TQC)
   on September 24, 2026, confirmed by the journal decision email. List it among
   accepted papers in both CVs, retain arXiv:2601.03185, and keep `selected: false`
@@ -227,11 +231,31 @@ record but is not included, to avoid repeating research and teaching roles.
   September 25, 2026 through the department's faculty directory).
 - Full-stack qLDPC resource estimation and AI for quantum architecture are ongoing directions;
   do not turn preliminary estimates or exploratory plans into completed-result claims.
+- The current academic research framing is algorithm-driven architecture for
+  fault-tolerant quantum computing. Use the candidate's current job-market
+  statements as evidence, not older source-audit snapshots. Do not copy or
+  publish those private statements, application notes, or email bodies.
 - The PennyLane QRAM tutorial (August 30, 2026) is a coauthored tutorial, not a peer-reviewed paper.
   Its visible website entry lives in `service.html`, the CV entry lives in `cv/software.tex`, and its launch is in `js/news.js`.
   `research.html#software` retains a longer description while that page is hidden.
+  The candidate confirmed developing almost all of the demo: describe the
+  implementation contribution directly while retaining all collaboration credit.
 - The 2026 TA assignment is CPSC 4310/5310, Computer Music: Algorithmic and Heuristic Composition;
   the earlier 2022–2023 assignment is CPSC 4470/5470, Introduction to Quantum Computing.
+- The candidate confirmed on October 16 that the 2022–2023 TA record covers
+  two offerings of the same quantum computing course, not two distinct courses.
+  The RPI guest lecture was for CSCI 4965/6965, Quantum Computer System.
+- Yale's Certificate of College Teaching Preparation is in progress, expected
+  December 2026; workshops and learning communities are complete. Do not list
+  the certificate as awarded until completion is confirmed.
+- The Italy mentoring entry is informal bachelor's-thesis guidance, not a
+  faculty appointment or formal thesis-supervisor role. The verified review
+  covered circuit logic, not the student's full noise/error analysis.
+- Conference talks, invited talks, and guest lectures are separate categories.
+  The July 2026 ISCA presentation is a conference talk; the May 2026 AFOSR QRAM
+  MURI closeout presentation is an invited project-review talk, not a grant award.
+- Conference reviewing is verified for QIP 2026. Publish only venue and role,
+  never the reviewed manuscript, reviewer report, or confidential correspondence.
 
 ### Compile and publish the CV file
 
@@ -247,6 +271,9 @@ Render `/tmp/shifan-cv-build/cv.pdf` and inspect all pages, then copy the verifi
 `Shifan_Xu_CV.pdf` in the repository root. That is the file linked by the website.
 Keep the `final` document option, clickable links, and PDF title/author metadata enabled.
 Keep external PDF links visibly underlined so they remain identifiable without relying on color.
+Keep individual publication entries together across page breaks. Earlier research
+may use compact dated paragraphs, preserving projects and advisors, rather than
+spilling a few old entries onto an otherwise empty page.
 Do not commit temporary LaTeX or preview files. After content updates, refresh the relevant
 script query versions in HTML and update the visible month in page/CV footers.
 

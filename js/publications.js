@@ -75,15 +75,17 @@
 
   const publications = [
     {
-      title: "Error Corrected QRAM Queries with One-Fault-Tolerant CSWAP Gates",
+      title: "Error-Corrected QRAM Queries with One-Fault-Tolerant CSWAP Gates",
       authors: ["Shifan Xu", "Connor T. Hann", "Nathan Wiebe", "Steven M. Girvin", "Yongshan Ding"],
-      venue: "Manuscript in preparation",
-      venueFull: "Manuscript in preparation",
+      venue: "arXiv preprint",
+      venueFull: "arXiv preprint",
       year: 2026,
-      sortDate: "2026-09-06",
+      sortDate: "2026-10-12",
       selected: false,
-      status: "in-preparation",
-      links: []
+      status: "preprint",
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2610.17185" }
+      ]
     },
     {
       title: "OQRAM: Oblivious Quantum Random Access Memory for Securing Delegated Quantum Queries",
@@ -115,10 +117,11 @@
       title: "Efficient Routing of Quantum LDPC Codes on Programmable 2D Toric Architectures",
       authors: ["Kun Liu", "Takahiro Tsunoda", "Sophia H. Xue", "Evan McKinney", "Zeyuan Zhou", "Shifan Xu", "Robert J. Schoelkopf", "Yongshan Ding"],
       venue: "QCE",
-      venueFull: "IEEE International Conference on Quantum Computing and Engineering (QCE), accepted",
+      venueFull: "IEEE International Conference on Quantum Computing and Engineering (QCE)",
       year: 2026,
       sortDate: "2026-09",
       selected: false,
+      status: "accepted",
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2604.18714" }
       ]
@@ -145,7 +148,8 @@
       selected: true,
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ISCA66397.2026.00148" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2602.20546" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2602.20546" },
+        { label: "Code", url: "https://github.com/kunliu7/bb-code-magic-state-distillation" }
       ]
     },
     {
@@ -236,7 +240,8 @@
       selected: true,
       links: [
         { label: "DOI", url: "https://doi.org/10.1145/3613424.3614270" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2306.03242" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2306.03242" },
+        { label: "Code", url: "https://github.com/ShifanXu/Simhybridqram" }
       ]
     }
   ];

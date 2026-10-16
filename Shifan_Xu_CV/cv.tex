@@ -30,7 +30,7 @@
 }
 \renewenvironment{cvpubs}{\par\paragraphstyle}{\par}
 \renewcommand{\cvpub}[1]{%
-  \par\begingroup\emergencystretch=3em\hangindent=0.7cm\hangafter=1\noindent\pubstyle{#1}\par\endgroup
+  \par\begingroup\interlinepenalty=10000\emergencystretch=3em\hangindent=0.7cm\hangafter=1\noindent\pubstyle{#1}\par\endgroup
 }
 \apptocmd{\cventry}{\par\vspace{1mm}}{}{}
 
@@ -45,7 +45,7 @@
 
 \begin{document}
 \makecvheader
-\makecvfooter{September 2026}{Shifan Xu \quad\textbar\quad Curriculum Vitae}{\thepage}
+\makecvfooter{October 2026}{Shifan Xu \quad\textbar\quad Curriculum Vitae}{\thepage}
 
 % Sections flow naturally; \cvsection keeps headings with their opening content.
 \input{cv/education.tex}
