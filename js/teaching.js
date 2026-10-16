@@ -31,6 +31,14 @@
       description: "Presented an introduction to quantum query architecture in the context of quantum information systems and scalable architectures.",
       selected: false,
       links: []
+    },
+    {
+      title: "Guest Lecture: Introduction to Quantum Random Access Memory",
+      role: "Introduction to Quantum Computing, Yale University · hosted by Prof. Yongshan Ding",
+      term: "March 2023",
+      description: "Delivered a guest lecture on quantum random access memory.",
+      selected: false,
+      links: []
     }
   ];
 

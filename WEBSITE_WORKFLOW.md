@@ -251,6 +251,8 @@ record but is not included, to avoid repeating research and teaching roles.
   the QRAM work leading to Fat-Tree QRAM (ASPLOS 2025). Emphasize what was learned,
   not "initiated subsequent qLDPC research projects"; do not imply that Fat-Tree
   QRAM is a qLDPC project.
+- Research Experience is ordered Yale, University of Chicago, then PNNL in both
+  CVs, as requested by the candidate; preserve this order rather than date-sorting.
 - The PennyLane QRAM tutorial (August 30, 2026) is a coauthored tutorial, not a peer-reviewed paper.
   Its visible website entry lives in `service.html`, the CV entry lives in `cv/software.tex`, and its launch is in `js/news.js`.
   `research.html#software` retains a longer description while that page is hidden.
@@ -261,6 +263,10 @@ record but is not included, to avoid repeating research and teaching roles.
 - The candidate confirmed on October 16 that the 2022–2023 TA record covers
   two offerings of the same quantum computing course, not two distinct courses.
   The RPI guest lecture was for CSCI 4965/6965, Quantum Computer System.
+- The candidate confirmed a March 2023 guest lecture, "Introduction to Quantum
+  Random Access Memory", for Prof. Yongshan Ding's Introduction to Quantum
+  Computing course at Yale. Include it under Guest Lectures in both CVs and on
+  the teaching page; keep it distinct from the March 2026 quantum-query lecture.
 - Keep the Fall 2026 CV teaching entry to the course and instructor; omit the
   programming-project guidance and grading description.
 - Yale's Certificate of College Teaching Preparation is in progress, expected
