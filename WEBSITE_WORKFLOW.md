@@ -292,7 +292,21 @@ record but is not included, to avoid repeating research and teaching roles.
 
 ### Compile and publish the CV file
 
-Use XeLaTeX with the included fonts. From `Shifan_Xu_CV/`:
+The academic CV uses `Shifan_Xu_CV/resume.cls`, adapted from
+[Trey Hunner's resume class](https://github.com/treyhunner/resume/blob/master/resume.cls)
+and the candidate-selected
+[Simplified Medium Length CV](https://www.overleaf.com/latex/templates/simplified-medium-length-professioal-cv-template/pczvfqqzmnvf)
+(Taro Yamada, CC BY 4.0). Preserve the source attribution and license notice.
+The visual style is black-and-white, single-column, with a centered bold name,
+serif body text, uppercase section headings above thin rules, and right-aligned
+dates. Do not restore the old thin sans-serif header or contact icons.
+Keep content in `cv/*.tex`; the new class supports their existing entry commands.
+Avoid section-specific negative spacing or forced page counts. The old
+`academic-cv.cls` and `fonts/` are retained but are not used by the academic build.
+
+Use XeLaTeX with Latin Modern Roman from the TeX distribution; fonts are loaded
+by filename so no operating-system font installation is required.
+From `Shifan_Xu_CV/`:
 
 ```bash
 mkdir -p /tmp/shifan-cv-build
@@ -304,6 +318,10 @@ Render `/tmp/shifan-cv-build/cv.pdf` and inspect all pages, then copy the verifi
 `Shifan_Xu_CV.pdf` in the repository root. That is the file linked by the website.
 Keep the `final` document option, clickable links, and PDF title/author metadata enabled.
 Keep external PDF links visibly underlined so they remain identifiable without relying on color.
+Use thin text underlines, not PDF annotation borders or colored boxes. When
+changing templates, compare all hyperlink destinations and extracted content
+against the prior PDF, then visually inspect every page. Keep the industry CV's
+independent layout unchanged unless a corresponding migration is requested.
 Keep individual publication entries together across page breaks. Earlier research
 may use compact dated paragraphs, preserving projects and advisors, rather than
 spilling a few old entries onto an otherwise empty page.

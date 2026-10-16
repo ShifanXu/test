@@ -1,11 +1,7 @@
 %!TEX encoding = UTF-8 Unicode
 % Compile with XeLaTeX from this directory. See ../WEBSITE_WORKFLOW.md.
-\documentclass[11pt, letterpaper, final]{academic-cv}
+\documentclass[11pt, letterpaper, final]{resume}
 \geometry{left=0.75in, top=0.75in, right=0.75in, bottom=0.75in, footskip=0.3in}
-\fontdir[fonts/]
-\urlstyle{same}
-\usepackage{needspace}
-\usepackage[normalem]{ulem}
 \hypersetup{
   draft=false,
   hidelinks,
@@ -13,38 +9,16 @@
   pdfauthor={Shifan Xu},
   pdfsubject={Quantum computer architecture and fault-tolerant quantum computing}
 }
-\let\plainhref\href
-\renewcommand{\href}[2]{\plainhref{#1}{\uline{#2}}}
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-\renewcommand{\paragraphstyle}{\fontsize{10.5pt}{13pt}\bodyfont\color{text}}
-\renewcommand{\descriptionstyle}[1]{{\fontsize{10.5pt}{13pt}\bodyfont\upshape\color{text} #1}}
-\renewcommand{\pubstyle}[1]{{\fontsize{10.5pt}{13pt}\bodyfont\color{text} #1}}
-\renewcommand{\acvHeaderAfterSocialSkip}{6mm}
-\renewcommand{\cvsection}[1]{%
-  \par\Needspace{8\baselineskip}\addvspace{3mm}%
-  \noindent\sectionstyle{#1}\quad\phantomsection\color{gray}\vhrulefill{0.9pt}\par\nobreak
-}
-\renewcommand{\cvsubsection}[1]{%
-  \par\Needspace{6\baselineskip}\addvspace{2mm}%
-  \noindent\subsectionstyle{#1}\phantomsection\par\nobreak
-}
-\renewenvironment{cvpubs}{\par\paragraphstyle}{\par}
-\renewcommand{\cvpub}[1]{%
-  \par\begingroup\interlinepenalty=10000\emergencystretch=3em\hangindent=0.7cm\hangafter=1\noindent\pubstyle{#1}\par\endgroup
-}
-\apptocmd{\cventry}{\par\vspace{1mm}}{}{}
-
-\name{Shifan Xu}{}
-\position{Ph.D. Candidate in Applied Physics}
+\name{Shifan Xu}
+\address{Ph.D. Candidate in Applied Physics}
 \address{Yale University, New Haven, CT}
-\mobile{+1 475-280-8083}
-\email{shifan.xu@yale.edu}
-\homepage{www.shifanxu.com}
-\linkedin{shifan-xu-92817721b/}
-\extrainfo{\href{https://scholar.google.com/citations?user=kkj2m90AAAAJ}{Google Scholar}}
+\address{\small +1 475-280-8083 \\
+  \href{mailto:shifan.xu@yale.edu}{shifan.xu@yale.edu} \\
+  \href{https://www.shifanxu.com}{www.shifanxu.com} \\
+  \href{https://www.linkedin.com/in/shifan-xu-92817721b/}{LinkedIn} \\
+  \href{https://scholar.google.com/citations?user=kkj2m90AAAAJ}{Google Scholar}}
 
 \begin{document}
-\makecvheader
 \makecvfooter{October 2026}{Shifan Xu \quad\textbar\quad Curriculum Vitae}{\thepage}
 
 % Sections flow naturally; \cvsection keeps headings with their opening content.
