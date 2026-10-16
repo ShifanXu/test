@@ -297,9 +297,10 @@ The academic CV uses `Shifan_Xu_CV/resume.cls`, adapted from
 and the candidate-selected
 [Simplified Medium Length CV](https://www.overleaf.com/latex/templates/simplified-medium-length-professioal-cv-template/pczvfqqzmnvf)
 (Taro Yamada, CC BY 4.0). Preserve the source attribution and license notice.
-The visual style is black-and-white, single-column, with a centered bold name,
-serif body text, uppercase section headings above thin rules, and right-aligned
-dates. Do not restore the old thin sans-serif header or contact icons.
+The visual style is black-and-white, single-column, with the centered name
+"Shifan Xu" in regular-weight 18 pt serif type (not bold or all capitals), serif
+body text, uppercase section headings above thin rules, and right-aligned dates.
+Do not restore the oversized bold name, old thin sans-serif header, or contact icons.
 Keep content in `cv/*.tex`; the new class supports their existing entry commands.
 Avoid section-specific negative spacing or forced page counts. The old
 `academic-cv.cls` and `fonts/` are retained but are not used by the academic build.

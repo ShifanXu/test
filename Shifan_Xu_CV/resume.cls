@@ -60,7 +60,7 @@
 \AtBeginDocument{%
   \setlength{\headwidth}{\textwidth}%
   \begingroup\centering
-  {\fontsize{24pt}{28pt}\selectfont\bfseries\MakeUppercase{\@name}\par}
+  {\fontsize{18pt}{22pt}\selectfont\mdseries\@name\par}
   \vspace{3pt}
   \@addresses
   \endgroup
