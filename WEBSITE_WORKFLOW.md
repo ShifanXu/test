@@ -237,17 +237,20 @@ record but is not included, to avoid repeating research and teaching roles.
   fault-tolerant quantum computing. Use the candidate's current job-market
   statements as evidence, not older source-audit snapshots. Do not copy or
   publish those private statements, application notes, or email bodies.
-- Keep research-experience descriptions direct and concise. The PNNL entry says
-  "Worked on the OQRAM project"; retain co-first-author credit in the publication
-  entry rather than repeating authorship and preprint status in research experience.
+- Keep research-experience descriptions direct and concise: name what was studied,
+  then the resulting project. The PNNL entry says "Studied QRAM security, leading
+  to the OQRAM project." Retain co-first-author credit in the publication entry
+  rather than repeating authorship and preprint status in research experience.
 - In the academic CV, the Yale research entry lists three short topic bullets:
   "Quantum memory systems", "Magic-state factory design", and "End-to-end
   algorithm-level fault tolerance". Do not expand these into project narratives,
   methods, performance figures, or publication summaries. This editorial choice
   does not replace the separately tailored industry CV's project details.
-- The candidate confirmed working on Fat-Tree QRAM and initiating subsequent
-  qLDPC projects during the January-May 2024 University of Chicago visit, hosted
-  by Prof. Liang Jiang. Include this work under Research Experience.
+- For the January-May 2024 University of Chicago visit, hosted by Prof. Liang
+  Jiang, describe studying QRAM architectures and qLDPC error correction, with
+  the QRAM work leading to Fat-Tree QRAM (ASPLOS 2025). Emphasize what was learned,
+  not "initiated subsequent qLDPC research projects"; do not imply that Fat-Tree
+  QRAM is a qLDPC project.
 - The PennyLane QRAM tutorial (August 30, 2026) is a coauthored tutorial, not a peer-reviewed paper.
   Its visible website entry lives in `service.html`, the CV entry lives in `cv/software.tex`, and its launch is in `js/news.js`.
   `research.html#software` retains a longer description while that page is hidden.
