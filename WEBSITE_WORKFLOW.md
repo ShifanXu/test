@@ -240,6 +240,11 @@ record but is not included, to avoid repeating research and teaching roles.
 - Keep research-experience descriptions direct and concise. The PNNL entry says
   "Worked on the OQRAM project"; retain co-first-author credit in the publication
   entry rather than repeating authorship and preprint status in research experience.
+- In the academic CV, the Yale research entry lists three short topic bullets:
+  "Quantum memory systems", "Magic-state factory design", and "End-to-end
+  algorithm-level fault tolerance". Do not expand these into project narratives,
+  methods, performance figures, or publication summaries. This editorial choice
+  does not replace the separately tailored industry CV's project details.
 - The candidate confirmed working on Fat-Tree QRAM and initiating subsequent
   qLDPC projects during the January-May 2024 University of Chicago visit, hosted
   by Prof. Liang Jiang. Include this work under Research Experience.
