@@ -237,18 +237,19 @@ record but is not included, to avoid repeating research and teaching roles.
   fault-tolerant quantum computing. Use the candidate's current job-market
   statements as evidence, not older source-audit snapshots. Do not copy or
   publish those private statements, application notes, or email bodies.
-- Keep research-experience descriptions direct and concise: name what was studied,
-  then the resulting project. The PNNL entry says "Studied QRAM security, leading
+- Keep research-experience descriptions direct and concise: name the research topic,
+  then the resulting project. The PNNL entry says "Researched QRAM security, leading
   to the OQRAM project." Retain co-first-author credit in the publication entry
   rather than repeating authorship and preprint status in research experience.
+  Use "Researched", not "Studied": these were research roles, not coursework.
 - In the academic CV, the Yale research entry lists three short topic bullets:
   "Quantum memory systems", "Magic-state factory design", and "End-to-end
   algorithm-level fault tolerance". Do not expand these into project narratives,
   methods, performance figures, or publication summaries. This editorial choice
   does not replace the separately tailored industry CV's project details.
 - For the January-May 2024 University of Chicago visit, hosted by Prof. Liang
-  Jiang, describe studying QRAM architectures and qLDPC error correction, with
-  the QRAM work leading to Fat-Tree QRAM (ASPLOS 2025). Emphasize what was learned,
+  Jiang, describe researching QRAM architectures and qLDPC error correction, with
+  the QRAM work leading to Fat-Tree QRAM (ASPLOS 2025). Emphasize the research topics,
   not "initiated subsequent qLDPC research projects"; do not imply that Fat-Tree
   QRAM is a qLDPC project.
 - Research Experience is ordered Yale, University of Chicago, then PNNL in both
