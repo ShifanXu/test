@@ -282,6 +282,10 @@ record but is not included, to avoid repeating research and teaching roles.
   MURI closeout presentation is an invited project-review talk, not a grant award.
   The candidate also gave the Systems Architecture for Quantum Random Access
   Memory conference talk at MICRO 2023 in Toronto, Canada.
+- The candidate confirmed a March 2024 invited talk at Prof. Fred Chong's group,
+  University of Chicago. Include it in both CVs, separately from the Spring 2024
+  Liang Jiang group talk. No title has been confirmed for the Fred Chong talk;
+  do not copy the Liang Jiang talk title into that entry.
 - Conference reviewing is verified for QIP 2026. Publish only venue and role,
   never the reviewed manuscript, reviewer report, or confidential correspondence.
   Under Conference Reviewing, list the venue without an "External reviewer" prefix.
