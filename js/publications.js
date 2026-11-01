@@ -75,6 +75,19 @@
 
   const publications = [
     {
+      title: "Identifying Logical Operations from Syndrome Histories for qLDPC Codes",
+      authors: ["Yizhuo Tan", "Shifan Xu", "Yongshan Ding", "Jakub Szefer"],
+      venue: "arXiv preprint",
+      venueFull: "arXiv preprint",
+      year: 2026,
+      sortDate: "2026-10-29",
+      selected: false,
+      status: "preprint",
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2610.40052" }
+      ]
+    },
+    {
       title: "Error-Corrected QRAM Queries with One-Fault-Tolerant CSWAP Gates",
       authors: ["Shifan Xu", "Connor T. Hann", "Nathan Wiebe", "Steven M. Girvin", "Yongshan Ding"],
       venue: "arXiv preprint",

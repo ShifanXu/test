@@ -201,6 +201,7 @@ Relevant CV sections:
 - `Shifan_Xu_CV/cv/teaching.tex`
 - `Shifan_Xu_CV/cv/research.tex`
 - `Shifan_Xu_CV/cv/software.tex`
+- `Shifan_Xu_CV/cv/patents.tex`
 
 The CV is a single research CV for quantum computing faculty and industry research roles.
 Do not impose a three-page limit or add a long opening profile paragraph. Preserve the
@@ -213,6 +214,13 @@ record but is not included, to avoid repeating research and teaching roles.
 ### Publication and contribution status
 
 - Keep manuscripts in preparation distinct from public preprints and accepted/published papers.
+- "Identifying Logical Operations from Syndrome Histories for qLDPC Codes"
+  is public as arXiv:2610.40052, submitted October 29, 2026. Preserve the author
+  order Yizhuo Tan, Shifan Xu, Yongshan Ding, Jakub Szefer. Use `status: "preprint"`,
+  `sortDate: "2026-10-29"`, and `selected: false`; include it under preprints in
+  both CVs. Do not copy OQRAM's co-first-author note to this separate paper.
+  No publicly accessible code repository was verified on November 1, 2026;
+  add a code link only once public access is confirmed.
 - The QRAM error-correction paper is public as arXiv:2610.17185 (submitted
   October 12, 2026; announcement October 14). Use the public title
   "Error-Corrected QRAM Queries with One-Fault-Tolerant CSWAP Gates",
@@ -286,6 +294,22 @@ record but is not included, to avoid repeating research and teaching roles.
   University of Chicago. Include it in both CVs, separately from the Spring 2024
   Liang Jiang group talk. No title has been confirmed for the Fred Chong talk;
   do not copy the Liang Jiang talk title into that entry.
+- The candidate confirmed the invited seminar "Magic State Distillation on
+  Bivariate Bicycle Code" at Pacific Northwest National Laboratory (PNNL),
+  during the June-August 2025 internship. List it as July 2025 in both CVs;
+  do not invent an exact day or merge it with the later ISCA/Xanadu talks.
+- Keep patent applications in a separate section after publications. Distinguish
+  a filed application from a granted patent, and do not count provisional and
+  nonprovisional filings for the same invention as separate inventions. Verify
+  titles, numbers, and filing dates against filing records. Do not publish
+  private patent documents, signatures, attorney correspondence, or unverified
+  inventor order. Confirm disclosure permission before publishing metadata that
+  has not been verified in a public patent record.
+  On November 1, 2026, the candidate approved public disclosure of the title,
+  application number, and filing date for "Articles and Methods for High Bandwidth
+  Quantum Random Access Memory (QRAM)": U.S. Patent Application No. 19/447,431,
+  filed January 13, 2026. Include this metadata in the public academic CV;
+  the underlying documents and correspondence remain private.
 - Conference reviewing is verified for QIP 2026. Publish only venue and role,
   never the reviewed manuscript, reviewer report, or confidential correspondence.
   Under Conference Reviewing, list the venue without an "External reviewer" prefix.
@@ -298,7 +322,7 @@ and the candidate-selected
 [Simplified Medium Length CV](https://www.overleaf.com/latex/templates/simplified-medium-length-professioal-cv-template/pczvfqqzmnvf)
 (Taro Yamada, CC BY 4.0). Preserve the source attribution and license notice.
 The visual style is black-and-white, single-column, with the centered name
-"Shifan Xu" in regular-weight 18 pt serif type (not bold or all capitals), serif
+"Shifan Xu" in regular-weight 16 pt serif type (not bold or all capitals), serif
 body text, uppercase section headings above thin rules, and right-aligned dates.
 Do not restore the oversized bold name, old thin sans-serif header, or contact icons.
 Keep content in `cv/*.tex`; the new class supports their existing entry commands.

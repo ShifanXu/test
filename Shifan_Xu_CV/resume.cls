@@ -33,7 +33,7 @@
 \urlstyle{same}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{4pt}
+\setlength{\parskip}{3pt}
 \setlength{\tabcolsep}{0pt}
 \setlength{\emergencystretch}{2em}
 \clubpenalty=10000
@@ -60,7 +60,7 @@
 \AtBeginDocument{%
   \setlength{\headwidth}{\textwidth}%
   \begingroup\centering
-  {\fontsize{18pt}{22pt}\selectfont\mdseries\@name\par}
+  {\fontsize{16pt}{20pt}\selectfont\mdseries\@name\par}
   \vspace{3pt}
   \@addresses
   \endgroup
@@ -78,10 +78,10 @@
 }
 
 \newcommand{\cvsection}[1]{%
-  \par\Needspace{5\baselineskip}\addvspace{10pt}%
+  \par\Needspace{5\baselineskip}\addvspace{8pt}%
   {\bfseries\MakeUppercase{#1}\par}\nobreak
   \vspace{3pt}\hrule height 0.4pt\relax
-  \nobreak\vspace{5pt}\@afterheading
+  \nobreak\vspace{4pt}\@afterheading
 }
 \newcommand{\cvsubsection}[1]{%
   \par\Needspace{4\baselineskip}\addvspace{6pt}%
@@ -90,7 +90,7 @@
 
 \newenvironment{cventries}{\par}{\par}
 \newcommand{\cventry}[5]{%
-  \par\Needspace{4\baselineskip}\addvspace{5pt}%
+  \par\Needspace{4\baselineskip}\addvspace{4pt}%
   \begingroup
   \renewcommand{\arraystretch}{1.04}%
   \begin{tabularx}{\linewidth}{@{}X@{\hspace{10pt}}r@{}}
