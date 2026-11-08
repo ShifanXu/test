@@ -90,7 +90,7 @@
 
 \newenvironment{cventries}{\par}{\par}
 \newcommand{\cventry}[5]{%
-  \par\Needspace{4\baselineskip}\addvspace{4pt}%
+  \par\Needspace{3.5\baselineskip}\addvspace{4pt}%
   \begingroup
   \renewcommand{\arraystretch}{1.04}%
   \begin{tabularx}{\linewidth}{@{}X@{\hspace{10pt}}r@{}}

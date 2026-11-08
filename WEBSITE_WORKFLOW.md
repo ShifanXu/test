@@ -278,6 +278,10 @@ record but is not included, to avoid repeating research and teaching roles.
   the teaching page; keep it distinct from the March 2026 quantum-query lecture.
 - Keep the Fall 2026 CV teaching entry to the course and instructor; omit the
   programming-project guidance and grading description.
+- The candidate confirmed a November 2026 guest lecture, "Introduction to
+  Quantum Query Architecture", at The Chinese University of Hong Kong (CUHK).
+  Include it under Guest Lectures in both CVs. No host, course, or exact day was
+  supplied; do not infer those details.
 - Yale's Certificate of College Teaching Preparation is in progress, expected
   December 2026; workshops and learning communities are complete. Do not list
   the certificate as awarded until completion is confirmed.
