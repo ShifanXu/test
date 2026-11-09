@@ -18,6 +18,13 @@
     },
     {
       title: "Guest Lecture: Introduction to Quantum Query Architecture",
+      role: "The Chinese University of Hong Kong (CUHK)",
+      term: "November 2026",
+      selected: true,
+      links: []
+    },
+    {
+      title: "Guest Lecture: Introduction to Quantum Query Architecture",
       role: "CSCI 4965/6965 Quantum Computer System, Rensselaer Polytechnic Institute · hosted by Prof. Zhiding Liang",
       term: "February 2025",
       description: "Delivered a guest lecture introducing quantum query architectures and the systems questions that arise in practical quantum memory design.",

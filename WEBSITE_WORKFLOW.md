@@ -280,8 +280,10 @@ record but is not included, to avoid repeating research and teaching roles.
   programming-project guidance and grading description.
 - The candidate confirmed a November 2026 guest lecture, "Introduction to
   Quantum Query Architecture", at The Chinese University of Hong Kong (CUHK).
-  Include it under Guest Lectures in both CVs. No host, course, or exact day was
-  supplied; do not infer those details.
+  Include it under Guest Lectures in both CVs, in `js/teaching.js` for the full
+  Teaching page, and in the static homepage Teaching summary. No host, course,
+  exact day, or further description was supplied; do not infer those details.
+  Teaching descriptions are optional; omit the paragraph when none is provided.
 - Yale's Certificate of College Teaching Preparation is in progress, expected
   December 2026; workshops and learning communities are complete. Do not list
   the certificate as awarded until completion is confirmed.

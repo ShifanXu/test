@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         '<article class="teaching-item">',
         "<h3>" + item.title + "</h3>",
         '<p class="item-meta">' + item.role + " · " + item.term + "</p>",
-        "<p>" + item.description + "</p>",
+        item.description ? "<p>" + item.description + "</p>" : "",
         "</article>"
       ].join("");
     })
