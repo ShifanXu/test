@@ -405,6 +405,19 @@ ul {
   align-items: stretch;
 }
 
+.home-layout > .section-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.home-layout .feature-grid,
+.home-layout .news-list,
+.home-layout .publication-list,
+.home-layout .teaching-list {
+  flex: 1;
+}
+
 .home-research {
   grid-area: research;
 }
@@ -448,19 +461,21 @@ ul {
 }
 
 .home-publications .publication-item {
-  padding: 0.78rem 0.9rem;
-  gap: 0.14rem;
+  padding: 0.9rem 1rem;
+  gap: 0.22rem;
+  align-content: start;
 }
 
 .home-publications .publication-title {
-  font-size: 1.02rem;
-  line-height: 1.18;
+  font-size: 1.14rem;
+  line-height: 1.22;
+  letter-spacing: 0;
 }
 
 .home-publications .publication-authors,
 .home-publications .publication-venue,
 .home-publications .publication-links {
-  font-size: 0.9rem;
+  font-size: 0.94rem;
 }
 
 .home-publications .publication-authors {

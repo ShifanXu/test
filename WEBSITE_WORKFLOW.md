@@ -125,6 +125,13 @@ Behavior:
 
 - Homepage research summary cards are static in `index.html`.
 - Homepage teaching block is static in `index.html`.
+- Keep the homepage Teaching summary to the TA and latest guest-lecture entries.
+  Research mentoring remains on `teaching.html` and in both CVs, not in the
+  homepage summary (candidate request, November 26, 2026).
+- Preserve the homepage's two-row grid on desktop: Research/News above
+  Publications/Teaching. Align both the outer section bottoms and their content
+  lists within each row. On mobile, let the four sections stack at natural heights;
+  do not force fixed heights or remove full-page/CV content to balance the summary.
 - Homepage news comes from `js/news.js`.
 - Homepage selected publications come from `js/publications.js`.
 - Keep the existing homepage introduction and headline unless the user explicitly
